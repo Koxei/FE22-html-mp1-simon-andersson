@@ -1,0 +1,98 @@
+/*--- START OF OVERALL STYLING ---*/
+html {
+    font-size: 62.5%;
+    height: auto;
+    width: 100%;
+}
+body {
+    background-color: rgb(58, 62, 71);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: rgb(129, 129, 231);
+    text-decoration: underline;
+}
+.paragraph {
+    color: white;
+    font-size: 1.35rem;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    margin: 3em
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px 30px 0px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+.pages-links {
+    margin: 20px;
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+.pages {
+    padding-top: 20em;
+    text-decoration: underline;
+    list-style: none;
+}
+/*--- END OF OVERALL STYLING ---*/
+/*--- START OF PROFILE STYLING ---*/
+#profile-heading {
+    font-size: 4rem;
+}
+#profile-image {
+    height: auto;
+    max-width: 350px;
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 50%;
+}
+#quote {
+    font-style: oblique;
+    font-size: 1.3rem;
+}
+.profile-links {
+    display: inline;
+    margin: 0 20px 0 20px;
+    padding-bottom: 100px;
+    font-size: 2em;
+}
+#profile-link-list {
+    display: flex;
+    justify-content: center;
+}
+/*--- END OF PROFILE STYLING ---*/
+/*--- START OF INSPIRATION STYLING ---*/
+#inspiration-heading {
+    font-size: 3rem;
+}
+.inspiration-links {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none
+}
+#inspiration-link-list {
+    padding-right: 3rem;
+}
+/*--- END OF INSPIRATION STYLING ---*/
+/*--- START OF CONTACTS STYLING ---*/
+.label {
+    color: white;
+    margin: 2em;
+    font-size: 1.5em;
+}
+#textarea {
+    margin: 1em 0em 0em 1.5em;
+}
+#submit {
+    margin: 1.5em;
+}
+/*--- END OF CONTACTS STYLING ---*/
